@@ -34,7 +34,6 @@ header {
   text-align: left;
 }
 
-/* Center nav within the remaining space */
 nav {
   flex: 2;
   display: flex;
@@ -55,7 +54,6 @@ nav a:hover {
 }
 
 
-/* Hero */
 .hero {
   padding: 4rem 2rem;
   display: flex;
@@ -114,7 +112,6 @@ nav a:hover {
   height: auto;
 }
 
-/* Sections */
 section {
   padding: 4rem 2rem;
   text-align: center;
@@ -132,7 +129,6 @@ section p {
   color: #666;
 }
 
-/* Cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +155,6 @@ section p {
   color: #c47f27;
 }
 
-/* Contact */
 .contact form {
   max-width: 500px;
   margin: 2rem auto 0;
@@ -190,7 +185,7 @@ section p {
   background-color: #a8641e;
 }
 
-/* Footer */
+
 footer {
   background-color: #333;
   color: #fff;
@@ -210,7 +205,6 @@ footer {
   color: #f8b500;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero-content {
     flex-direction: column;
