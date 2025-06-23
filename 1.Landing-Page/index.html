@@ -3,38 +3,100 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Landing Page</title>
+  <title>Tea World</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
   <header>
-    <div class="logo">MyBrand</div>
-    <nav class="nav">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+    <div class="logo">Tea World</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#recommend">Recommendations</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Welcome to MyBrand</h1>
-      <p>Build something amazing with us today.</p>
-      <a href="#" class="cta-button">Get Started</a>
+      <div class="hero-text">
+        <h1>Welcome to Tea World</h1>
+        <p>A soulful blend of heritage and flavor — brewed to awaken your senses.</p>
+        <a href="#contact" class="cta-btn">Shop Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="./images/tea.jpg" alt="Shree Cha Cup" />
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Shree Cha brings you a curated range of premium teas sourced directly from India's most iconic estates. Crafted for tea lovers, our blends promise purity, depth, and satisfaction in every cup.</p>
+  </section>
+
+  <!-- Recommendations -->
+  <section id="recommend" class="recommend">
+    <h2>Our Tea Recommendations</h2>
+    <p>Not sure where to begin? Explore our handpicked tea collections perfect for every mood and moment.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Morning Boost</h3>
+        <p>Start your day right with our strong Assam chai — bold, energizing, and full of flavor.</p>
+      </div>
+      <div class="card">
+        <h3>Evening Calm</h3>
+        <p>Relax and unwind with our soothing herbal blends — a perfect way to end your day.</p>
+      </div>
+      <div class="card">
+        <h3>Festive Flavor</h3>
+        <p>Celebrate every moment with our spiced masala chai — a rich, aromatic Indian classic.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="process">
+    <h2>How We Craft Tea World</h2>
+    <p>From lush tea gardens to your cup — our process ensures purity, freshness, and unforgettable taste.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Handpicked Leaves</h3>
+        <p>We source our tea from India’s finest plantations, ensuring only the best reach you.</p>
+      </div>
+      <div class="card">
+        <h3>Expert Blending</h3>
+        <p>Our master blenders create rich, aromatic blends to delight every palate.</p>
+      </div>
+      <div class="card">
+        <h3>Eco-Friendly Packaging</h3>
+        <p>Our sustainable packaging keeps your tea fresh and the planet happy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Have a question, bulk order inquiry, or just want to say hi? We'd love to hear from you!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Type your message here..."></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
   <footer>
-    <p>&copy; 2025 MyBrand. All rights reserved.</p>
-    <div class="social-links">
+    <p>&copy; 2025 Tea World. All rights reserved.</p>
+    <div class="social">
+      <a href="#">Instagram</a>
       <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">LinkedIn</a>
+      <a href="#">YouTube</a>
     </div>
   </footer>
 
